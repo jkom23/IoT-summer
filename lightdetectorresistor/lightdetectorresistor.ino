@@ -8,6 +8,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 analogValue = analogRead(ldr_pin);
+Serial.print("LDR Value is: ");
 Serial.println(analogValue);
 delay(50);
 
