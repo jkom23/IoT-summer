@@ -17,13 +17,13 @@ void loop() {
 Serial.print("LDR Value is: ");
 Serial.println(analogValue);
 delay(50);
-if(analogValue>401&&analogValue<700){
+if(analogValue>=400&&analogValue<=700){
   digitalWrite(LED_PIN, LOW);
   digitalWrite(LED_PIN2, HIGH);
-}else if(analogValue>700){
+}else if(analogValue>=701){
   digitalWrite(LED_PIN, HIGH);
   digitalWrite(LED_PIN2, HIGH);
-}else if(analogValue<400){
+}else if(analogValue<=401){
   digitalWrite(LED_PIN, LOW);
   digitalWrite(LED_PIN2, LOW);
 }
