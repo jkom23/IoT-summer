@@ -6,3 +6,6 @@ Projects on Huzzah Feather ESP8266
 1. Blink
 2. LDR
 3. LDR with Lights
+4. Servo
+5. RGB Lights
+6. Servo with LDR
