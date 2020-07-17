@@ -23,6 +23,7 @@ void loop() {
   
   Serial.printf("\nThe Temperature in the room is %f", t);
   Serial.printf("\nThe Humidity in the room is %f", h);
+  Serial.printf("\nThe Temp in Celcius in the room is %f", c);
   
   delay(2000);
 }
