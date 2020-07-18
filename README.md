@@ -9,3 +9,6 @@ Projects on Huzzah Feather ESP8266
 4. Servo
 5. RGB Lights
 6. Servo with LDR
+7. Temperature/Humidity Sensor 
+8. Temperature/Humidity Sensor + Servo + Lights
+
